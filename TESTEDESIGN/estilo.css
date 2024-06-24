@@ -1,0 +1,44 @@
+/* Seletor para a imagem do logo */
+img[rel="logo"] {
+    /* Especifique a largura e altura conforme necessário */
+    width: 346px;
+    height: 84px;
+    /* Substitua o caminho da imagem atual pela nova imagem que você deseja usar */
+    content: url('logoTopo.png');
+    /* Garanta que a nova imagem de logo se ajuste ao tamanho especificado */
+    object-fit: contain;
+    /* Ajuste o espaçamento em torno da imagem, se necessário */
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 50px;
+
+}/* Estilizando o footer */
+footer {
+    background-color: #f0f2f1;
+    color: #393b39;
+    padding: 20px;
+    text-align: center;
+    clear: both; /* Limpa o float dos elementos anteriores */
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+}
+
+/* Seletor para o elemento img com o atributo rel="logo-footer" */
+img[rel="logo-footer"] {
+    /* Especifique a largura e altura conforme necessário */
+    width: 316px;
+    height: 74px;
+    /* Substitua o caminho da imagem atual pela nova imagem que você deseja usar */
+    content: url('caminho/para/sua/nova/imagem.png');
+    /* Garanta que a nova imagem de logo se ajuste ao tamanho especificado */
+    object-fit: contain;
+    /* Ajuste o espaçamento em torno da imagem, se necessário */
+    padding: 0;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border: none;
+    display: block; /* Garante que a margem automática funcione */
+    border-radius: 50px;
+}
+
+  
+
